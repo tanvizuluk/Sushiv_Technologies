@@ -5,6 +5,7 @@ import Skills from "@/components/main/Skills";
 // import Services from "@/components/main/Services"
 import Clients from "@/components/main/Clients";
 import Image from "next/image";
+import Message from "@/components/main/Message";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Encryption />
         <Projects />
         <Clients />
+        
       </div>
     </main>
   );

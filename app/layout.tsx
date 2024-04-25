@@ -4,7 +4,7 @@ import "./globals.css";
 import StarsCanvas from "@/components/main/StarBackground";
 import Navbar from "@/components/main/Navbar";
 import Footer from "@/components/main/Footer";
-
+import SendMessage from "@/components/main/Message";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -25,6 +25,7 @@ export default function RootLayout({
         <StarsCanvas />
         <Navbar />
         {children}
+        <SendMessage />
         <Footer />
       </body>
     </html>
